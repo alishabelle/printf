@@ -1,21 +1,21 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef jank
+#define jank
 
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
 
 /**
- *struct types - char to print function
- *@typ: parameter
- *@f: parameter
+ * struct types - corresponds character to print function of matching type
+ *
+ * @typ: character of type (c = char, f = float, i = int, s = string)
+ * @f: pointer to print function
  */
 typedef struct types
 {
 	char typ;
 	int (*f)();
 } types;
-
 
 int _printf(const char *format, ...);
 int _print_sign(__attribute__((unused)) va_list param, unsigned int count);
