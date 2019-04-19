@@ -2,9 +2,10 @@
 
 /**
  * print_sign - prints percents after conversion specifier and increases count
- * @param: parameter
- * @count: parameter
- * Return: returns an int
+ * @param: format string to loop through
+ * @count: counter of chars printed
+ *
+ * Return: counter increased by chars printed
  */
 int print_sign(__attribute__((unused)) va_list param, unsigned int count)
 {
@@ -14,9 +15,13 @@ int print_sign(__attribute__((unused)) va_list param, unsigned int count)
 
 /**
  * print_char - prints a character and increases count
- * @param: parameter
- * @count: parameter
- * Return: returns an int
+ * @param: character param to print from va_list
+ * @count: current count of chars printed
+ *
+ * @param: character param to print from va_list
+ * @count: current count of chars printed
+ *
+ * Return: counter increased by one
  */
 int print_char(va_list param, unsigned int count)
 {
@@ -26,9 +31,10 @@ int print_char(va_list param, unsigned int count)
 
 /**
  * print_string - prints a string and increases count
- * @param: parameter
- * @count: parameter
- * Return: returns an int
+ * @param: current string param to print from va_list
+ * @count: current count of chars printed
+ *
+ * Return: counter increased by string length
  */
 int print_string(va_list param, unsigned int count)
 {
