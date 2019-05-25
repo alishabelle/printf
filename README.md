@@ -1,1 +1,2 @@
-learning C language
+Year 1 Foundations
+Alisha Smith
