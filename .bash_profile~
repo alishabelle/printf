@@ -1,0 +1,2 @@
+alias pcs="pycodestyle"
+source ~/.bashrc
