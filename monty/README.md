@@ -3,5 +3,5 @@
 #2 Implement the pop opcode
 #3 Implement the swap opcode
 #4 Implement the add opcode
-#5 Implement the nop opcode 
-All in the Monty repository
+#5 Implement the nop opcode
+All in the monty repository
